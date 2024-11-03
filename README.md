@@ -1,15 +1,14 @@
-# Clasificador binario de imágenes miscroscópicas en vivo para el disgnóstico de Cancer de Esófago
+# Binary Classifier for In-Vivo Microscopic Images for Esophageal Cancer Diagnosis
 
-El presente repositorio se refiere a un curso sobre el Perceptrón, impartido en colaboración con el [Colegio de Matemáticas Bourbaki](https://www.colegio-bourbaki.com/).
+This repository pertains to a course on the Perceptron, conducted in collaboration with the [Bourbaki School of Mathematics](https://www.colegio-bourbaki.com/).
 
-Se utiliza Perceptrón lineal para realizar una clasificación binaria de un subconjunto de imágenes provenientes del [Data Challenge by Mauna Kea](https://challengedata.ens.fr/participants/challenges/11/).
+A linear Perceptron is used to perform binary classification on a subset of images from the [Data Challenge by Mauna Kea](https://challengedata.ens.fr/participants/challenges/11/).
 
-Para este clasificador se utilizaron solamente las imágenes de tejido sano y las imágenes de tejido con displasia/cáncer.
-De manera que el conjuntode datos está formado por 1,469 imágenes de tejido sano (clase 0)  y 3,594 imágenes de displasia/cáncer (clase 1).
+For this classifier, only images of healthy tissue and images of tissue with dysplasia/cancer were used. Thus, the dataset consists of 1,469 images of healthy tissue (class 0) and 3,594 images of dysplasia/cancer tissue (class 1).
 
-Las imágenes originales fueron escaladas de 519x521 pixeles a 260x260 para reducir el tiempo y la memoria requeridos para el procesamiento. El conjunto de imágenes utilizadas están disponibles en el archivo comprimido [CarpetaImagenes.zip](https://drive.google.com/file/d/1Abi4hjl5djn8X75YCcMXL5htq7iqf7VY/view?usp=sharing), fuera de este repositorio.
+The original images were scaled from 519x521 pixels to 260x260 to reduce the time and memory required for processing. The set of images used is available in the compressed file [ImageFolder.zip](https://drive.google.com/file/d/1Abi4hjl5djn8X75YCcMXL5htq7iqf7VY/view?usp=sharing), outside this repository.
 
-Por su parte, el archivo ClasesImagenes.csv, que se ubica en la carpeta Datos de éste repositorio, contiene una tabla donde se identifica el nombre de cada imagen y la clase a la que pertenece.
+Additionally, the file *ClasesImagenes.csv*, located in the *Data* folder of this repository, contains a table identifying the name of each image and the class to which it belongs.
 
 
 
