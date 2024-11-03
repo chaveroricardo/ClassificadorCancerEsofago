@@ -1,7 +1,5 @@
 # Binary Classifier for In-Vivo Microscopic Images for Esophageal Cancer Diagnosis
 
-This repository pertains to a course on the Perceptron, conducted in collaboration with the [Bourbaki School of Mathematics](https://www.colegio-bourbaki.com/).
-
 A linear Perceptron is used to perform binary classification on a subset of images from the [Data Challenge by Mauna Kea](https://challengedata.ens.fr/participants/challenges/11/).
 
 For this classifier, only images of healthy tissue and images of tissue with dysplasia/cancer were used. Thus, the dataset consists of 1,469 images of healthy tissue (class 0) and 3,594 images of dysplasia/cancer tissue (class 1).
